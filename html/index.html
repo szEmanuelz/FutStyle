@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutStyle</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container py-4">
+      <h1 class="m-0">FutStyle</h1>
+      <p class="m-0">As melhores camisas de seleções e clubes do mundo em um só lugar.</p>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark menu-principal">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Início</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="menuNavegacao" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuNavegacao">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produtos.html">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+
+    <section class="mb-5">
+      <h2 class="titulo-secao mb-4">Novidades</h2>
+
+      <div id="carrosselPrincipal" class="carousel slide shadow-sm rounded-4 overflow-hidden" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner1.jpg" class="d-block w-100 imagem-carrossel" alt="Imagem 1">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/banner2.jpg" class="d-block w-100 imagem-carrossel" alt="Imagem 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Layout responsivo</h5>
+              <p>O Bootstrap ajuda a adaptar a página a diferentes telas.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/banner3.jpg" class="d-block w-100 imagem-carrossel" alt="Imagem 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Interface moderna</h5>
+              <p>Um visual bonito, simples e funcional para os alunos.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselPrincipal" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carrosselPrincipal" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="titulo-secao mb-4">Destaques</h2>
+
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-4">
+          <a href="produtos.html#real-madrid">
+          <figure class="card-galeria">
+            <img src="img/real.jpg" alt="Foto 1" class="img-fluid">
+            </a>
+            <figcaption>62,5% OFF.</figcaption>
+          </figure>
+        </div>
+          
+        <div class="col-sm-6 col-lg-4">
+          <a href="produtos.html#brasil">
+          <figure class="card-galeria">
+            <img src="img/camisabr.jpg" alt="Foto 2" class="img-fluid">
+            </a>
+            <figcaption>Mais Vendida.</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <figure class="card-galeria">
+            <a href="produtos.html#barcelona">
+            <img src="img/barca.jpg" alt="Foto 3" class="img-fluid">
+            </a>
+            <figcaption>lançamento.</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <figure class="card-galeria">
+            <a href="produtos.html#selecoes">
+            <img src="img/selecoes.jpg" alt="Foto 4" class="img-fluid">
+            </a>
+            <figcaption>Seleções.</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <figure class="card-galeria">
+            <a href="produtos.html#times">
+            <img src="img/times.jpg" alt="Foto 5" class="img-fluid">
+            </a>
+            <figcaption>Times.</figcaption>
+          </figure>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <figure class="card-galeria">
+            <img src="img/new.jpg" alt="Foto 6" class="img-fluid">
+            <figcaption>Novidades em breve...</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container py-4 text-center">
+      <p class="m-0">FutStyle © 2026
+        <p>📞(34) 99999-2026</p>
+        <p>✉ contato@futstyle.com</p>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
