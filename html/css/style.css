@@ -12,6 +12,7 @@ body {
 .topo {
   background: linear-gradient(135deg, #009c3b, #ffdf00);
   color: #ffffff;
+  text-align: center;
 }
 
 .menu-principal {
