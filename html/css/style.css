@@ -102,6 +102,6 @@ footer p{
     margin: 0;
 }
 
-.table-responsive{
-  background:  #009c3b;
+table tr td {
+    background: transparent !important;
 }
